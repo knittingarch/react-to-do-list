@@ -1,11 +1,9 @@
 import React from 'react'
 
-import TaskList from "./TaskList"
-
 function App() {
   return (
     <div>
-      <TaskList />
+      <h1>Howdy do!</h1>
     </div>
   )
 }
