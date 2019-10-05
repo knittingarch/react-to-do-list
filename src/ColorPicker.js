@@ -1,6 +1,6 @@
 import React from "react"
 
-function ColorPicker() {
+export default function ColorPicker() {
   return (
     <div>
       <input type="color" id="task-color" />
@@ -9,5 +9,3 @@ function ColorPicker() {
 
   )
 }
-
-export default ColorPicker

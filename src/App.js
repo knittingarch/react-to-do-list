@@ -2,12 +2,10 @@ import React from 'react'
 
 import TaskList from "./TaskList"
 
-function App() {
+export default function App() {
   return (
     <div>
       <TaskList />
     </div>
   )
 }
-
-export default App
