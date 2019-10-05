@@ -1,7 +1,7 @@
 import React from "react"
 
 export default function LaunchModalButton() {
-  return(
+  return (
     <button type="button">More</button>
   )
 }
