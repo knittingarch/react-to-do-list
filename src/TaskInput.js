@@ -1,6 +1,6 @@
 import React from "react"
 
-function TaskInput() {
+export default function TaskInput() {
   return (
     <div>
       <input type="text" id="task" />
@@ -9,5 +9,3 @@ function TaskInput() {
 
   )
 }
-
-export default TaskInput

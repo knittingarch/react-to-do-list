@@ -6,7 +6,7 @@ import Header from "./Header"
 import LaunchModalButton from "./LaunchModalButton"
 import TaskInput from "./TaskInput"
 
-function TaskList() {
+export default function TaskList() {
   return (
     <div>
       <Header title="Today's To Dos" />
@@ -19,5 +19,3 @@ function TaskList() {
     </div>
   )
 }
-
-export default TaskList
