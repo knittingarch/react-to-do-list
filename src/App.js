@@ -7,7 +7,7 @@ export default function App() {
   return (
     <div>
       <TaskList task="This uncompleted task is coming from App.js." />
-      <CompletedTaskList task="This completed task is coming from App.js." />
+      <CompletedTaskList />
     </div>
   )
 }
